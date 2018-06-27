@@ -1,0 +1,256 @@
+*{
+    padding: 0;  
+    font-family: "Calibri";
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('fonte/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('fonte/Roboto-Thin.ttf');
+}
+body{
+    background-image: url("imagens/background.png");
+    background-position: center top;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+    margin: 0;
+}
+header{
+    float: left;
+    width: 100%;
+    padding: 41px 0px 43px 0px;
+}
+.background{
+    background: black;
+    position: fixed;
+    height: 87px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.iconTop{
+    width: 5.5%;
+    float: left;
+    margin-top: 0.4%;
+    MARGIN-LEFT: 21.99%;
+}
+.linkH{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    float: left;
+    padding: 30px 27px 0px 27px;
+}
+.linkH:hover{
+   color: rgba(255,255,255,0.3);
+}
+#content{
+    float: left;
+    margin-top: 3.9%;
+    align-content: center;
+    width: 100%;
+}
+h1{
+    cursor: context-menu;
+    font-size: 59px;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 1.5%;
+    font-family: Calibri;
+    width: 73%;
+    margin-left: 13%
+}
+.text{
+    cursor: context-menu;
+    font-size: 22px;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+    margin-top: 0.7%;
+    margin-left: 24%;
+}
+.botoes{
+    margin-left: 24.5%;
+    margin-bottom: 13%;
+    margin-top: 5.3%;
+}
+.botao{
+    width: 72px;
+    height: 79px;
+    position: relative;
+    float: left;
+    margin: 5px 14px 5px 24px;
+ }
+.botao a{
+    width: 83%;
+    height: 83%;
+    display: inline-block;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .3s ease;
+ } 
+.botao a b{
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: all .3s ease;
+ }
+.botao:hover a{
+    top: -10px;
+ }
+.botao:hover a b{
+    bottom: -25px;
+    opacity: 1;
+}
+
+h3{
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 27px;
+    margin: 36px 0px 0px 122px;
+}
+.text2{
+    width: 83%;
+    text-align: center;
+    margin-top: 19%;
+    margin-left: 8%;
+    font-size: 20px;
+    color: white;
+}
+
+#fundamental{
+    float: left;
+    width: 24.72%;
+    margin-left: 12.5%;
+    display: hidden;
+}
+#tecnico{
+   
+    width: 24.72%;
+    float: left; 
+    display: hidden;   
+}
+#medio{
+    float: left;
+    width: 24.72%;
+
+}
+
+
+#linkCurso{
+    font-size: 21px;
+    background-color: #ff5b00;
+    color: white;
+    padding: 8px;
+    margin-left: 17%;
+    text-decoration: none;
+    float: left;
+    width: 60.59%;
+    border-radius: 3px;
+    margin-top: 9%;
+    font-family: Calibri;
+    text-align: center
+}
+#linkCurso:before {
+    content: '';
+    position: absolute;
+    left: 16.7%;
+    margin-top: -0.4%;
+    width: 0px;
+    border-radius: 3px;
+    height: 42px;
+    background: rgba(255,255,255,0.3);
+    transition: all 1s ease;
+}
+
+#linkCurso:hover:before {
+    width: 15.81%;
+}
+#linkCurso:hover{
+    background-color:#ff7021;
+}
+
+
+#linkCurso1{
+    font-size: 21px;
+    background-color: #ff5b00;
+    color: white;
+    padding: 8px;
+    margin-left: 17%;
+    text-decoration: none;
+    float: left;
+    width: 60.59%;
+    border-radius: 3px;
+    margin-top: 9%;
+    font-family: Calibri;
+    text-align: center
+    
+}
+#linkCurso1:before {
+    content: '';
+    position: absolute;
+    left: 41.39%;
+    margin-top: -0.4%;
+    width: 0px;
+    border-radius: 3px;
+    height: 42px;
+    background: rgba(255,255,255,0.3);
+    transition: all 1s ease;
+}
+
+#linkCurso1:hover:before {
+    width: 15.85%;
+}
+#linkCurso1:hover{
+    background-color:#ff7021;
+}
+
+
+#linkCurso2{
+    font-size: 21px;
+    background-color: #ff5b00;
+    color: white;
+    padding: 8px;
+    margin-left: 17%;
+    text-decoration: none;
+    float: left;
+    width: 60.59%;
+    border-radius: 3px;
+    margin-top: 9%;
+    font-family: Calibri;
+    text-align: center
+    
+}
+#linkCurso2:before {
+    content: '';
+    position: absolute;
+    left: 66.1%;
+    margin-top: -0.4%;
+    width: 0px;
+    border-radius: 3px;
+    height: 42px;
+    background: rgba(255,255,255,0.3);
+    transition: all 1s ease;
+}
+
+#linkCurso2:hover:before {
+    width: 15.85%;
+}
+#linkCurso2:hover{
+    background-color:#ff7021;
+}
+
+
