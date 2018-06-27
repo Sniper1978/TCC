@@ -1,0 +1,16 @@
+.header-site{
+    background-image:url(img2.jpg);
+    background-position: center top;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.content-site{
+    padding-top: 2000px;
+    padding-bottom: 200px;
+}
+.container{
+    height: 100%;
+}

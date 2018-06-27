@@ -1,0 +1,81 @@
+
+ul.menu, .menu li, .menu a{
+    margin:0; 
+    list-style:none;
+    text-decoration:none;
+}
+ul.menu ul{
+    position:absolute;
+    display:none; 
+}
+ 
+/* Configurações nivel 1*/
+ul.menu{
+    float: left;
+    width: 63%;
+    border-radius: 5px;
+    margin-left: 3.4%;
+}
+.menu li{
+    float: left;
+    width: auto;
+    position: relative;
+}
+.menu li a{
+    display: block;
+    line-height: 46px;
+    height: 41px;
+    font-size: 17px;
+    float: left;
+    color: white;
+    transition: all 0.1s linear;
+    padding: 5px 36px 5px 36px;
+    font-family: Calibri;
+ }
+ 
+
+/*Configurações de cores*/
+ 
+/*nivel 1*/
+
+.menu a{
+    color :white;
+    font-size:20px;
+}
+.menu li:hover > a{
+    background: rgba(0, 0, 0, 0.1);
+    color:white;
+    font-size: 20px;
+}
+ 
+/*nivel 2*/
+.submenu-1{
+     background:#1a1817;
+    }
+.submenu-1 a{
+    color:#fff;
+}
+.submenu-1 li:hover > a{
+     background:rgb(139, 147, 161); 
+    }
+ 
+/*nivel 3*/
+.submenu-2{ 
+    background:#666;
+}
+.submenu-2 a{
+    color:#fff;
+}
+.submenu-2 li:hover > a{
+     background:#333; 
+    } 
+/*nivel 3*/
+.submenu-3{ 
+    background:#333;
+}
+.submenu-3 a{
+    color:#fff;
+}
+.submenu-3 li:hover > a{
+    background:#000;
+}
